@@ -114,20 +114,15 @@
 
 // ===============8 masla
 
-// let limit = 25;
-// let a, b, c = 0;
-// let m = 2;
-// while (c < limit)
-//     {
-//     for(let n = 1; n < m; n++){
-//         a = m * m - n * n;
-//         b = 2 * m * n;
-//         c = m * m + n * n;
-//         if (c > limit)
-//             break;
-//             console.log(a + " " + b + " " + c);
+// let n =100
+// for (let a = 2; a<=n; a++) {
+//     for (let b =2; b<=n; b++) {
+//         for (let c =2; c<=n; c++) {
+//             if (a*a+ b*b==c*c){
+//                 console.log(a,b,c);
+//             }
+//         }
 //     }
-//     m++;
 // }
 
 
@@ -144,13 +139,13 @@
 //         if (son1%i==0) {
 //             a+= i;
 //         }
-//         console.log(a);
+//         // console.log(a);
 //     }
 //     for (let j =0; j<=son2; j++) {
 //         if (son2%j==0) {
 //             b+= j;
 //         }
-//         console.log(b);
+//         // console.log(b);
 //     }
 // }
 // if (a==b) {
